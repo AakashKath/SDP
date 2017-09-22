@@ -8,4 +8,8 @@ public class And2Gate implements AdvancedAndGate{
 			return 0;
 		}
 	}
+	@Override
+	public int nand2g(int input1, int input2){
+		return -1;
+	}
 }
