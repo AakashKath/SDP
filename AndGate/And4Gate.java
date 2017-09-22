@@ -1,3 +1,4 @@
+//Concrete class And4Gate implementing the AndGate interface
 public class And4Gate implements AndGate{
 	GateAdapter gateadapter;
 	@Override

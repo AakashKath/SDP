@@ -1,3 +1,4 @@
+//Adapter class GateAdapter implementing the AndGate interface
 public class GateAdapter implements AndGate{
 	AdvancedAndGate advancedandgate;
 	public GateAdapter(String gatetype){

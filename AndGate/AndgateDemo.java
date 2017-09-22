@@ -1,3 +1,4 @@
+//Main Class
 import java.util.Scanner;
 
 public class AndgateDemo{
@@ -6,8 +7,8 @@ public class AndgateDemo{
 		Scanner sc = new Scanner(System.in);
 		int input1, input2, input3, input4;
 		String gatetype;
-		gatetype=sc.next();
-		input1=sc.nextInt();
+		gatetype=sc.next();					//NAND or AND(which one do you want to use?)
+		input1=sc.nextInt();				//Input values
 		input2=sc.nextInt();
 		input3=sc.nextInt();
 		input4=sc.nextInt();
